@@ -2,7 +2,7 @@ package com.deluxe.operation;
 
 import java.util.List;
 
-import com.deluxe.beans.OrderDto;
+import com.deluxe.beans.OrderDto; 
 
 public interface OrderOperation {
 	List<OrderDto> addOrder(OrderDto orderDto);

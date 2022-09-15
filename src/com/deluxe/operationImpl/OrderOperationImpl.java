@@ -29,10 +29,11 @@ public class OrderOperationImpl implements OrderOperation {
 			}
 		}
 		return null;
-	}
+	} 
 	
 	
-	public OrderDto getOrderItemsNameWithPrice() {
+	public OrderDto getOrderItemsNameWithPrice() { 
+		
 		
 		List<OrderDto> al = OrderDto.getAl();
 		for (OrderDto orderDto : al) {
